@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Загрузка CSV с фильмами</title>
+</head>
+<body>
+    <h1>Загрузка CSV с фильмами</h1>
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <label for="csvfile">Выберите CSV файл:</label>
+        <input type="file" name="csvfile" id="csvfile" accept=".csv" required>
+        <br><br>
+        <input type="submit" value="Загрузить">
+    </form>
+</body>
+</html>
